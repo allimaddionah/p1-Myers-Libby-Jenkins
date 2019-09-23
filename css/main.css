@@ -1,3 +1,17 @@
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 1500px;
+}
+header {
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  height: 285px;
+  background-color: #542315;
+  width: 100%;
+  padding-top: 60px;
+}
 .navbar {
   padding: 0.5rem, -1rem;
   display: inline;
