@@ -74,3 +74,90 @@ footer {
   width: 50px;
   padding-right: 10px;
 }
+/* 1778px Media query starts****************************/
+@media (max-width: 1778px) {
+  header img {
+    top: 250px;
+  }
+  main {
+    padding: 255px 50px 120px 100px;
+  }
+}
+/* 1778px Media query ends****************************/
+/* 1572px Media query starts****************************/
+@media (max-width: 1572px) {
+  header img {
+    top: 292px;
+  }
+  main {
+    padding: 255px 50px 120px 100px;
+  }
+}
+/* 1572px Media query ends****************************/
+/* 1100px Media query starts****************************/
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 2.0rem;
+  }
+  .navbar {
+    display: inline;
+  }
+}
+/* 1100px Media query ends****************************/
+/* 705px Media query starts****************************/
+@media (max-width: 705px) {
+  header img {
+    max-width: 175px;
+    left: 200px;
+    top: 339px;
+  }
+  main {
+    padding: 300px 50px 120px 100px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+/* 705px Media query ends****************************/
+/* 615px Media query starts****************************/
+@media (max-width: 615px) {
+  header img {
+    left: 135px;
+  }
+  main {
+    padding: 330px 50px 120px 70px;
+  }
+}
+/* 615px Media query ends****************************/
+/* 575px Media query starts****************************/
+@media (max-width: 575px) {
+  header img {
+    left: 100px;
+  }
+  main {
+    padding: 330px 50px 120px 25px;
+  }
+}
+/* 575px Media query ends****************************/
+/* 450px Media query starts****************************/
+@media (max-width: 450px) {
+  header img {
+    top: 375px;
+    left: 75px;
+  }
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+/* 450px Media query ends****************************/
+/* 250px Media query starts****************************/
+@media (max-width: 450px) {
+  header img {
+    top: 400px;
+    left: 25px;
+  }
+  h1 {
+    font-size: 1.0rem;
+  }
+}
+/* 250px Media query ends****************************/
