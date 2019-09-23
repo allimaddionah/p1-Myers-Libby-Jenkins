@@ -1,0 +1,17 @@
+footer {
+  height: 75px;
+  background-color: #542315;
+  width: 100%;
+  text-align: center;
+}
+#yelp {
+  width: 100px;
+}
+#facebook {
+  width: 50px;
+  padding-right: 10px;
+}
+#twitter {
+  width: 50px;
+  padding-right: 10px;
+}
