@@ -1,16 +1,11 @@
-
-
-@import "variables";
-
 body {
   margin: auto;
   width: 100%;
-	max-width: 1500px;
+  max-width: 1500px;
 }
-
 nav .link {
   font-family: 'Montserrat', sans-serif;
-  color: @white;
+  color: #ffffff;
   font-weight: 600;
   font-size: 20px;
   padding: 10px;
@@ -21,14 +16,13 @@ nav .link {
   text-align: center;
   display: inline-block;
   height: 115px;
-  background-color: @brown;
+  background-color: #542315;
   width: 100%;
   padding-top: 60px;
 }
-
 span {
   font-weight: 600;
-  color: @white;
+  color: #ffffff;
   font-size: 24px;
 }
 header {
@@ -37,32 +31,27 @@ header {
   background-repeat: no-repeat;
   background-size: 1500px;
 }
-
 .coffee {
   background-image: url("../img/ourcoffe.png");
   height: 225px;
   background-repeat: no-repeat;
   background-size: 1500px;
 }
-
 .order {
   background-image: url("../img/order.png");
   height: 225px;
   background-repeat: no-repeat;
   background-size: 1500px;
 }
-
-
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: @white;
+  color: #ffffff;
   font-weight: 600;
   padding-top: 50px;
   text-align: center;
 }
-
 h2 {
-  color: @brown;
+  color: #542315;
 }
 header img {
   max-width: 200px;
@@ -78,20 +67,9 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
 footer {
   height: 75px;
-  background-color: @brown;
+  background-color: #542315;
   width: 100%;
   text-align: center;
 }
@@ -106,47 +84,38 @@ footer {
   width: 50px;
   padding-right: 10px;
 }
-
 /* 1778px Media query starts****************************/
-@media (max-width: 1778px)  {
+@media (max-width: 1778px) {
   header img {
     top: 250px;
   }
   main {
     padding: 255px 50px 120px 100px;
   }
-
 }
 /* 1778px Media query ends****************************/
-
 /* 1572px Media query starts****************************/
-@media (max-width: 1572px)  {
+@media (max-width: 1572px) {
   header img {
     top: 292px;
   }
   main {
     padding: 255px 50px 120px 100px;
   }
-
 }
 /* 1572px Media query ends****************************/
-
 /* 1100px Media query starts****************************/
-@media (max-width: 1100px)  {
-
- h1 {
+@media (max-width: 1100px) {
+  h1 {
     font-size: 2.0rem;
   }
-
   .navbar {
     display: inline;
   }
-
 }
 /* 1100px Media query ends****************************/
-
 /* 705px Media query starts****************************/
-@media (max-width: 705px)  {
+@media (max-width: 705px) {
   header img {
     max-width: 175px;
     left: 200px;
@@ -155,14 +124,13 @@ footer {
   main {
     padding: 300px 50px 120px 100px;
   }
- h1 {
+  h1 {
     font-size: 1.5rem;
   }
 }
 /* 705px Media query ends****************************/
-
 /* 615px Media query starts****************************/
-@media (max-width: 615px)  {
+@media (max-width: 615px) {
   header img {
     left: 135px;
   }
@@ -171,9 +139,8 @@ footer {
   }
 }
 /* 615px Media query ends****************************/
-
 /* 575px Media query starts****************************/
-@media (max-width: 575px)  {
+@media (max-width: 575px) {
   header img {
     left: 100px;
   }
@@ -182,31 +149,25 @@ footer {
   }
 }
 /* 575px Media query ends****************************/
-
 /* 450px Media query starts****************************/
-@media (max-width: 450px)  {
+@media (max-width: 450px) {
   header img {
     top: 375px;
     left: 75px;
   }
-
- h1 {
+  h1 {
     font-size: 1.2rem;
   }
-
 }
 /* 450px Media query ends****************************/
-
 /* 250px Media query starts****************************/
-@media (max-width: 450px)  {
+@media (max-width: 450px) {
   header img {
     top: 400px;
     left: 25px;
   }
-
- h1 {
+  h1 {
     font-size: 1.0rem;
   }
-
 }
 /* 250px Media query ends****************************/
