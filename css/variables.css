@@ -1,0 +1,15 @@
+.centerit {
+  text-align: center;
+}
+.p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+.backgroundheader {
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}

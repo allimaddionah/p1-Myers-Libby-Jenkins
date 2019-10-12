@@ -1,3 +1,10 @@
+.centerit {
+  text-align: center;
+}
+.p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
 body {
   margin: auto;
   width: 100%;

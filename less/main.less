@@ -6,23 +6,20 @@ body {
 	max-width: 1500px;
 }
 
-nav .link {
-  font-family: 'Montserrat', sans-serif;
-  color: @white;
-  font-weight: 600;
-  font-size: 20px;
-  padding: 10px;
+  nav .link {
+  .navstyle();
   text-decoration: none !important;
 }
-#nav {
-  margin: auto;
-  text-align: center;
-  display: inline-block;
-  height: 115px;
-  background-color: @brown;
-  width: 100%;
-  padding-top: 60px;
-}
+
+  #nav {
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+    height: 115px;
+    background-color: @brown;
+    width: 100%;
+    padding-top: 60px;
+  }
 
 span {
   font-weight: 600;
@@ -33,39 +30,31 @@ span {
 /*this is where the homepage top banner lives */
 header {
   background-image: url("../img/banner1.png");
-  height: 225px;
-  background-repeat: no-repeat;
-  background-size: 1500px;
+  .backgroundheader();
 }
 
 .coffee {
   background-image: url("../img/ourcoffe.png");
-  height: 225px;
-  background-repeat: no-repeat;
-  background-size: 1500px;
+  .backgroundheader();
 }
 
 .order {
   background-image: url("../img/order.png");
-  height: 225px;
-  background-repeat: no-repeat;
-  background-size: 1500px;
+  .backgroundheader();
 }
 
 .about {
   background-image: url("../img/banner2.png");
-  height: 225px;
-  background-repeat: no-repeat;
-  background-size: 1500px;
+  .backgroundheader();
 }
 
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  .h1();
   color: @white;
   font-weight: 600;
   padding-top: 50px;
-  text-align: center;
+  .center();
 }
 
 h2 {
@@ -81,8 +70,7 @@ header img {
 main {
   padding: 15px 50px 120px 300px;
   p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    .p();
   }
 }
 
@@ -92,7 +80,7 @@ footer {
   height: 75px;
   background-color: @brown;
   width: 100%;
-  text-align: center;
+  .centerit();
   #yelp {
     width: 100px;
   }
