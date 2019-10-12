@@ -29,6 +29,8 @@ span {
   color: @white;
   font-size: 24px;
 }
+
+/*this is where the homepage top banner lives */
 header {
   background-image: url("../img/banner1.png");
   height: 225px;
@@ -45,6 +47,13 @@ header {
 
 .order {
   background-image: url("../img/order.png");
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+
+.about {
+  background-image: url("../img/banner2.png");
   height: 225px;
   background-repeat: no-repeat;
   background-size: 1500px;
@@ -71,11 +80,12 @@ header img {
 }
 main {
   padding: 15px 50px 120px 300px;
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  }
 }
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-}
+
 
 
 footer {
@@ -83,18 +93,19 @@ footer {
   background-color: @brown;
   width: 100%;
   text-align: center;
+  #yelp {
+    width: 100px;
+  }
+  #facebook {
+    width: 50px;
+    padding-right: 10px;
+  }
+  #twitter {
+    width: 50px;
+    padding-right: 10px;
+  }
 }
-#yelp {
-  width: 100px;
-}
-#facebook {
-  width: 50px;
-  padding-right: 10px;
-}
-#twitter {
-  width: 50px;
-  padding-right: 10px;
-}
+
 
 /* 1778px Media query starts****************************/
 @media (max-width: 1778px)  {
