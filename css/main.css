@@ -43,6 +43,17 @@ header {
   background-repeat: no-repeat;
   background-size: 1500px;
 }
+.about {
+  background-image: url("../img/banner2.png");
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.imgcenter img {
+  text-align: center;
+  padding: 5%;
+}
+
 h1 {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
