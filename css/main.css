@@ -5,6 +5,25 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+.backgroundheader {
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: 1500px;
+}
+.navstyle {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px;
+}
+.imgpad {
+  padding-left: 2%;
+  padding-right: 2%;
+}
 body {
   margin: auto;
   width: 100%;
@@ -80,6 +99,9 @@ main {
 main p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+}
+#aboutusimage {
+  text-align: center;
 }
 footer {
   height: 75px;
